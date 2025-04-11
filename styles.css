@@ -1,0 +1,44 @@
+.pokemon-card {
+    background-color: #000e4b;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(122, 122, 122, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pokemon-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.pokemon-info {
+    background-color: #8da4e9; 
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.pokemon-name {
+    font-family: 'Verdana', sans-serif;
+    color: #2c3e50; 
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pokemon-type {
+    color: #4c42e0; 
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.pokemon-description {
+    font-size: 14px;
+    color: #000000; 
+}
